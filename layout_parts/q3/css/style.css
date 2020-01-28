@@ -7,13 +7,13 @@
   clear: both;
 }
 
-.q3-contant {
+.q3-content {
   width: 100%;
   table-layout: fixed;
   text-align: center;
 }
 
-.q3-contant th {
+.q3-content th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
@@ -22,18 +22,18 @@
   border: solid 1px #dedede;
 }
 
-.q3-contant td {
+.q3-content td {
   padding: 10px;
   font-size: 16px;
   line-height: 22px;
   border: solid 1px #dedede;
 }
 
-.q3-contant tr:nth-child(even) {
+.q3-content tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.q3-contant tbody tr:last-child {
+.q3-content tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 
