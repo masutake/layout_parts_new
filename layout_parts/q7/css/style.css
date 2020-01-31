@@ -36,11 +36,21 @@
   padding-left: 0;
 }
 
+.Q7inlineblock {
+  font-size: 0;
+}
+
 .q7inlineblock {
   display: inline-block;
   vertical-align: middle;
   width:225px;
+  font-size: 16px;
   box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.q7inlineblock:first-child {
+  margin-left: 0;
 }
 
 .q7flex {
@@ -49,17 +59,24 @@
   justify-content: space-around;
 }
 
+.Q7margin {
+  font-size: 0;
+}
+
 .q7flexible {
   display: inline-block;
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
+  font-size: 16px;
+  vertical-align: top;
 }
 
 .q7fixed {
   display: inline-block;
   width: 300px;
+  font-size: 16px;
 }
 
 
