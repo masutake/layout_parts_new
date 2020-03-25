@@ -14,27 +14,26 @@
   font-size: 16px;
 }
 
-.balloon:before,.balloon:after {
+.balloon:before {
   content:"";
   position: absolute;
-  right: 0;
-  left: 0;
+  bottom: -30px;
+  left: 25px;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  border-top: 30px solid #222;
   width: 0;
-  height:0;
-  margin: 0;
-  border: 20px solid
-}
-
-.balloon:before {
-  bottom: -45px;
-  left: 30px;
-  border-top-color: #222;
 }
 
 .balloon:after {
-  bottom: -38px;
-  left: 30px;
-  border-top-color: #fff;
+  content:"";
+  position: absolute;
+  bottom: -23px;
+  left: 25px;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  border-top: 30px solid #fff;
+  width: 0;
 }
 
 
